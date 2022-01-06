@@ -52,6 +52,7 @@ img{
 .row{
     display: flex;
     margin: 0 -15px;
+    align-items: center;
 }
 .col{
     margin: 15px;
@@ -78,5 +79,32 @@ section{
     padding-left: 50%;
     text-align: justify;
 }
-
-  
+.face-value{
+    width: 50%;
+    padding-left: 10%;
+    background-color: lightblue;
+}
+.finishing_img{
+    width: 100%;
+    border-radius: 0%;
+}
+.finishing{
+    padding-right: 30%;
+    padding-left: 15%;
+    text-align: justify;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgba(255, 221, 71, 0.959) ,rgb(255, 102, 0));
+    padding: 10px ;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+}
+.mail{
+    color: cyan;
+   }
+   .copyright{
+       color: darkgray;
+   }
